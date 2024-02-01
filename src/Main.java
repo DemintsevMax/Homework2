@@ -44,6 +44,11 @@ public class Main {
         var workingHoursDay = 8;
         var result15 = totalWorkingHours / workingHoursDay;
         System.out.println("Всего работников в компании - "+"totalWorkingHours / workingHoursDay = " + result15);
+        var totalEmployees = 80;
+        var result16 = totalEmployees + 94;
+        var result17 = totalWorkingHours/(totalEmployees + 94);
+                        System.out.println("Если в компании работает " + "totalEmployees + 94 = " + result16 + " человека, то всего "+"totalWorkingHours/(totalEmployees + 94 )" + result17 + " часа работы может быть поделено между сотрудниками.");
+
 
 
 
