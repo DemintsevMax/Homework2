@@ -6,31 +6,32 @@ public class Main {
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
-        var y = 4;
-        var result1 = dog + y;
-        System.out.println("dog + y = " + result1);
-        var result2 = cat + y;
+        var result1 = dog + 4;
+        System.out.println("dog + 4 = " + result1);
+        var result2 = cat + 4;
         System.out.println("cat + y = " + result2);
-        var result3 = paper + y;
-        System.out.println("paper + y = " + result3);
-        var x=3.5;
-        var result4 = dog - x;
-        System.out.println("dog -x = " + result4);
-        var f=1.6;
-        var result5 = cat - f;
-        System.out.println("cat - f = " + result5);
-        var s=7639;
-        var result6 = paper - s;
-        System.out.println("paper - s = " + result6);
+        var result3 = paper + 4;
+        System.out.println("paper + 4 = " + result3);
+        var result4 = dog - 3.5;
+        System.out.println("dog - 3.5 = " + result4);
+        var result5 = cat - 1.6;
+        System.out.println("cat - 1.6 = " + result5);
+        var result6 = paper - 7639;
+        System.out.println("paper - 7639 = " + result6);
         var friend=19;
         System.out.println(friend);
-        var c=2;
-        var result7 = friend + c;
-        System.out.println("friend + c = " + result7);
-        var r=7;
-        var result8 = (friend + c)/r;
-        System.out.println("(friend + c)/r = " + result8);
-
+        var result7 = friend + 2;
+        System.out.println("friend + 2 = " + result7);
+        var result8 = (friend + 2)/7;
+        System.out.println("(friend + 2)/7 = " + result8);
+        var frog =3.5;
+        System.out.println(frog);
+        var result9 = frog * 10;
+        System.out.println("frog * e = " + result9);
+        var result10 = (frog * 10)/frog;
+        System.out.println("(frog * e)/frog = " + result10);
+        var result11 = (frog * 10)/frog+4;
+        System.out.println("(frog * e)/frog+4 = " + result11);
 
     }
 }
