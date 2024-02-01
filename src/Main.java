@@ -36,6 +36,10 @@ public class Main {
         var weightSecondBoxer = 82.7;
         var result12 = weightOneBoxer + weightSecondBoxer;
         System.out.println("weightOneBoxer + weightSecondBoxer = " + result12);
+        var result13 = weightSecondBoxer - weightOneBoxer;
+        System.out.println("weightSecondBoxer - weightOneBoxer = " + result13);
+        var result14 = weightSecondBoxer % weightOneBoxer;
+        System.out.println("weightSecondBoxer % weightOneBoxer = " + result14);
 
     }
 }
