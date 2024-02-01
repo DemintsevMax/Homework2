@@ -22,6 +22,14 @@ public class Main {
         var s=7639;
         var result6 = paper - s;
         System.out.println("paper - s = " + result6);
+        var friend=19;
+        System.out.println(friend);
+        var c=2;
+        var result7 = friend + c;
+        System.out.println("friend + c = " + result7);
+        var r=7;
+        var result8 = (friend + c)/r;
+        System.out.println("(friend + c)/r = " + result8);
 
 
     }
