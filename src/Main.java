@@ -40,6 +40,11 @@ public class Main {
         System.out.println("weightSecondBoxer - weightOneBoxer = " + result13);
         var result14 = weightSecondBoxer % weightOneBoxer;
         System.out.println("weightSecondBoxer % weightOneBoxer = " + result14);
+        var g = 640;
+        var h = 8;
+        var result15 = g / h;
+        System.out.println("Всего работников в компании - "+"g / h = " + result15);
+
 
     }
 }
